@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 from sklearn.metrics import confusion_matrix
+import matplotlib.pyplot as plt
 import numpy as np
 
 st.set_page_config(page_title="HAR Final Project", layout="wide")
